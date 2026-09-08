@@ -1,0 +1,12 @@
+.Ramim01 {
+  border-width: 5px;
+  border-style: solid; 
+  border-color: seagreen;
+  border-radius: 10px;  
+  }
+#Faysal {
+  border-width: 10px;
+  border-style: dotted;   
+  border-color: slateblue;
+  border-radius: 15px;
+}

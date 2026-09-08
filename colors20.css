@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+}
+h2{
+    color: #9c88ff;
+}
+p{
+    color: #e1b12c;
+}.faysal{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(red, green, blue);
+}

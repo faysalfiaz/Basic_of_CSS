@@ -1,0 +1,16 @@
+.p1{
+border: 3px solid brown;
+width: 400px;
+margin: auto;
+}
+.p2{
+border: 3px solid red;
+max-width: 400px;
+margin: auto;
+}
+.p3{
+ width: 400px; 
+height: 300px;
+border: 5px solid black;
+overflow: auto;
+}

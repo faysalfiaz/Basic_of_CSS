@@ -1,0 +1,32 @@
+.Ramim {
+    width: 400px;
+    float: right;
+}
+
+
+.Box01,
+.Box02,
+.Box03,
+.Box04 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+
+}
+
+.Box01 {
+    background-color: green;
+}
+
+.Box02 {
+    background-color: red;
+}
+
+.Box03 {
+    background-color: blue;
+}
+
+.Box04 {
+    background-color: black;
+}

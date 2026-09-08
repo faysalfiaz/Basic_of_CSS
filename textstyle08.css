@@ -1,0 +1,15 @@
+h1{
+color: red;
+background-color: yellow;
+text-align: center;
+
+
+}
+p{
+color: blue;
+background-color: lightgray;
+text-transform: capitalize;
+text-indent: 50px;
+letter-spacing: 2px;
+word-spacing: 15px;
+}

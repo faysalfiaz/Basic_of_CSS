@@ -1,0 +1,11 @@
+.ffff{
+    margin-top: 50px;
+border-width:  5px;
+border-style: solid;
+border-color: black;
+outline-width: 10px;
+outline-style: solid;
+outline-color: lightcoral;
+outline: offset 10px;
+
+}

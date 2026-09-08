@@ -1,0 +1,15 @@
+h1{
+color: red;
+background-color: lavenderblush;
+}
+p{
+color: blue;
+background-color: yellow;
+}
+body{
+background-color: indianred;
+background-image: url(Ramim.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
