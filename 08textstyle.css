@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    background-color: yellow;
+    text-align: center;
+
+
+}
+
+p {
+    color: blue;
+    background-color: lightgray;
+    text-transform: capitalize;
+    text-indent: 20px;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    line-height: 2;
+    /* 
+    text-indent: space for first word
+    letter-spacing: space inside word for each word
+    word-spacing: space for each word to each word
+    
+     */
+}
