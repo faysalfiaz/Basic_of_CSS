@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+    background-color: lavenderblush;
+}
+
+p {
+    color: blue;
+    background-color: yellow;
+}
+/* here  no-repeat : without use it this pic appair multiple time */
+/* completely cover the element without leaving any empty space */
+body {
+    background-color: rgb(209, 139, 139);
+    background-image: url(Ramim.webp);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
