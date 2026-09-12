@@ -31,4 +31,6 @@
     background-color: black;
 }
 
-/* here The space (or external gap) around each box is created using the margin property.*/
+/* here The space (or external gap) around each box is created using the margin property.
+Without float: left;, your green, red, blue, and black boxes would be stacked vertically. Because of float: left;, they snap into a horizontal line.
+*/
