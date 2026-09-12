@@ -1,0 +1,10 @@
+p::first-letter {
+    color: red;/*edit the first letter just ,, we can also change the first line*/
+    font-size: 20px;
+}
+
+h1::before {
+    content: url(Ramim.webp);
+
+}
+/* In CSS, hover is used to change how an element looks when you place your computer mouse cursor over it. For example, you can make a box change color, grow bigger, or show a shadow only when the user hovers their mouse pointer on top of it.*/
