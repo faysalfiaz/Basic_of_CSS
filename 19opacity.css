@@ -1,0 +1,19 @@
+img{
+ width: 300px;   
+}
+img:hover{
+    opacity: 0.5;
+}
+.faysal {
+    width: 700px;
+    height: 400px;
+    background: url(Ramim.webp) no-repeat center;
+    background-size: cover;/*background-size: cover; scales a background image so that it completely fills its container without distorting its proportions.*/
+    /* This moves the box to the center of the screen */
+    margin: 20px auto; 
+}
+p{
+font-size: 20px;
+text-align: center;
+
+}
