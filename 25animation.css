@@ -1,0 +1,52 @@
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+    margin: 100px auto;
+    position: relative;
+    animation-name: square;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes square {
+    0% {
+        background-color: tomato;
+        left: 0;/* here % is timing */
+        right: 0;
+    }
+
+    25% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: pink;
+    }
+
+
+
+
+
+}
+
+.circle {
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    border: 15px solid white;
+
+
+}
