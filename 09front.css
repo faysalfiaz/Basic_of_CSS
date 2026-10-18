@@ -1,8 +1,6 @@
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font to Arial, falls back to Helvetica, or the system's default sans-serif font */
+    font-weight: bold; /* front-weight use to make bold the text */ 
     font-size: 50px;
     font-style: italic;
-
 }
-/* front-weight use to make bold the text */ 

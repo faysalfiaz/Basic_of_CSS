@@ -7,15 +7,10 @@ h1 {
 p {
     color: blue;
     background-color: lightgray;
-    text-transform: capitalize;
-    text-indent: 50px;
-    letter-spacing: 3px;
-    word-spacing: 15px;
-    line-height: 2;
-    /* 
-    text-indent: space for first word
-    letter-spacing: space inside word for each word
-    word-spacing: space for each word to each word
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    text-indent: 50px; /* text-indent: space for first word */
+    letter-spacing: 3px; /* letter-spacing: space inside word for each word */
+    word-spacing: 15px; /* word-spacing: space for each word to each word */
+    line-height: 2; /* Sets line spacing to double the font size */
     
-     */
 }
