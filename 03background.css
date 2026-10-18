@@ -11,7 +11,7 @@ p {
 /* completely cover the element without leaving any empty space */
 body {
     background-color: rgb(209, 139, 139);
-    background-image: url(Ramim.webp);
+    background-image: url(sprite_social.jpg);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
