@@ -1,8 +1,8 @@
 .fa-brands {
-    color: blue;
+  color: blue;
 }
 
 .fa-brands:hover {
-    color: red !important;
-    cursor: pointer;
+  color: red !important;
+  cursor: pointer; /* Changes the mouse cursor to a pointing hand when hovering over the element */
 }
