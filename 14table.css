@@ -1,10 +1,9 @@
 table,
 tr,
 td {
-    border-color: black;
-    width: 400px;
-    border-collapse: collapse;
-    border: 5px solid green;
-    text-align: center;
-    background-color: red;
+  width: 400px;
+  border-collapse: collapse;
+  border: 5px solid green;
+  text-align: center;
+  background-color: red;
 }
