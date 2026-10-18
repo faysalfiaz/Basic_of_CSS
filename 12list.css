@@ -1,14 +1,13 @@
 ul {
   list-style: none; /* Removes the giant bullet */
-  font-size: 14px; 
+  font-size: 14px;
 }
 
 ul li {
-  background-image: url('starjpg.jpg');
+  background-image: url("sprite_social.jpg");
   background-size: 15px 15px; /* Change this to make it smaller or bigger */
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 25px; /* Adds space so text doesn't overlap the star */
-  color:goldenrod;
- 
+  color: goldenrod;
 }
