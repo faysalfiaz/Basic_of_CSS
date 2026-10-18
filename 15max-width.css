@@ -1,20 +1,22 @@
 .p1 {
-    border: 3px solid brown;
-    width: 400px;
-    margin: auto;
+  border: 3px solid brown;
+  width: 400px;
+  margin: auto;
 }
 
 .p2 {
-    border: 3px solid red;
-    max-width: 400px;
-    margin: auto;
+  border: 3px solid red;
+  max-width: 400px;
+  margin: auto; /* automatically margin and canter*/
 }
 
 .p3 {
-    width: 400px;
-    height: 300px;
-    border: 5px solid black;
-    overflow: auto;
+  width: 400px;
+  height: 300px;
+  border: 5px solid black;
+  overflow: auto; /* Automatically adds a scrollbar if the content overflows the box size */
+  margin: auto;
+  border-radius: 2%;
 }
 
 /* width and max width not same 
