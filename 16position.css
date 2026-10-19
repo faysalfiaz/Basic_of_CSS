@@ -24,11 +24,12 @@
   height: 850px;
   background-color: rgb(27, 24, 24);
   position: absolute;
-  top: -55px;
+  top: -10px;
   left: -12px;
+  z-index: 10;
 }
 .Name {
   text-align: center;
-  margin-top: 50px;
+  margin-top: -50px;
   font-weight: bold;
 }
