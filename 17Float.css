@@ -1,34 +1,32 @@
 .Ramim {
-    width: 400px;
-    float: left;
+  width: 200px;
+  float: left;
 }
-
 
 .Box01,
 .Box02,
 .Box03,
 .Box04 {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 10px;
-
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 20px;
 }
 
 .Box01 {
-    background-color: green;
+  background-color: green;
 }
 
 .Box02 {
-    background-color: red;
+  background-color: red;
 }
 
 .Box03 {
-    background-color: blue;
+  background-color: blue;
 }
 
 .Box04 {
-    background-color: black;
+  background-color: black;
 }
 
 /* here The space (or external gap) around each box is created using the margin property.
