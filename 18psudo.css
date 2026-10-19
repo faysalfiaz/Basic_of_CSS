@@ -4,6 +4,6 @@ p::first-letter {
 }
 
 h1::before {
-  content: url(sprite_social.jpg);
+  content: url(sprite_social.jpg); /* add the picture at first point */
 }
 /* In CSS, hover is used to change how an element looks when you place your computer mouse cursor over it. For example, you can make a box change color, grow bigger, or show a shadow only when the user hovers their mouse pointer on top of it.*/
