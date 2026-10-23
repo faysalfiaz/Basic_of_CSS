@@ -1,20 +1,25 @@
 .box {
-    height: 300px;
-    width: 300px;
-    margin: 100px auto;
-    background-color: blueviolet;
-    transition-property: all;
-    transition-delay: 0.5s;
-    transition-duration: 0.5s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-
-
+  height: 300px;
+  width: 300px;
+  margin: 100px auto;
+  background-color: blueviolet;
+  transition-property: all; /* Applies transition effect to all changed properties */
+  transition-delay: 0.5s; /* Delays the start of transition by 0.5 seconds */
+  transition-duration: 0.5s; /** Takes 0.5 seconds to complete the smooth change */
+  transition-timing-function: cubic-bezier(
+    0.075,
+    0.82,
+    0.165,
+    1
+  ); /* Custom speed curve (starts fast, ends smoothly) */
+  /* transition: [property] [duration] [timing-function] [delay]; */
+  /*transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s; */
 }
 
 .box:hover {
-    width: 200px;
-    height: 200px;
-    background-color: darkgreen;
-    border: solid 12px;
-    border-color: black;
+  width: 200px;
+  height: 200px;
+  background-color: darkgreen;
+  border: solid 12px;
+  border-color: black;
 }
