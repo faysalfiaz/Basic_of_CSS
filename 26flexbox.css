@@ -1,18 +1,16 @@
 .flexbox {
-    background-color: blueviolet;
-    font-size: 35px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* we can also do column */
-    justify-content: center;
-
+  background-color: blueviolet;
+  font-size: 35px;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to move to the next line if space runs out */
+  flex-direction: row;
+  /* we can also do column */
+  justify-content: center;
 }
 
-.flexbox>div {
-    background-color: aqua;
-    margin: 5px;
-    padding: 5px;
-    width: 100px;
-
+.flexbox > div {
+  background-color: aqua;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
 }
