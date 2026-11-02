@@ -1,56 +1,54 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color:#ddd;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* fix the box size */
+  background-color: #ddd;
 }
 
 header {
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
+  width: 100%; /* take the full width */
+  background-color: black;
+  color: #ddd;
+  display: flex; /* works as row */
 }
 
 .logo {
-
-    font-size: 35px;
-    font-weight: bold;
-    margin-left: 20px;
-    padding: 10px;
-    color: white; /* Added so your name is visible on the dark background */
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
+  color: #ddd; /* Added so your name is visible on the dark background */
 }
-.navbar ul{
-list-style: none;
-
+.navbar ul {
+  list-style: none; /* remove the little dot box from the text */
 }
-.navbar ul li{
-background-color:gray;
-width: 170px;
-border: 1px solid ghostwhite;
-height: 50px;
-text-align: center;
-float: left;
-color: white;
-font-weight: bold;
-text-transform: uppercase;
-line-height: 50px;
-position: relative;
+.navbar ul li {
+  background-color: gray;
+  width: 170px; /* it is the box size */
+  border: 1px solid ghostwhite;
+  height: 50px; /* it is the box size */
+  text-align: center;
+  float: left; /* flex --row style */
+  color: white;
+  font-weight: bold; /* meke the bold */
+  text-transform: uppercase; /* upper case font */
+  line-height: 50px; /* upper bottom hight */
+  position: relative;
 }
-.navbar ul li a{
- text-decoration:none;  
- color: white; 
- text-align: center;
- justify-content: center;
- align-items: center;
+.navbar ul li a {
+  text-decoration: none; /* remove the underline from link tag */
+  color: white;
+  text-align: center;
+  justify-content: center; /* make the box in the center right & left*/
+  align-items: center; /* make the box in the center upper & down*/
 }
-.navbar ul li:hover{
-    background-color: blueviolet;
-    transition: all ease-in 0.5;
+.navbar ul li:hover {
+  background-color: blueviolet;
+  transition: all ease-in 0.5;
 }
 .navbar ul ul {
-    display: none;
+  display: none; /* normally it is hide -- when we click it is showed */
 }
-.navbar ul li:hover > ul{
-    display: block;
+.navbar ul li:hover > ul {
+  display: block; /*-- when we click it is showed */
 }
