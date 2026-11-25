@@ -1,8 +1,8 @@
 .Ramim01 {
   border-width: 10px;
-  border-style: solid;
+  border-style: solid; /* border style */
   border-color: rgb(162, 172, 166);
-  border-radius: 20px;
+  border-radius: 20px; /* make round */
 }
 
 #Faysal {
